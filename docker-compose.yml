@@ -7,9 +7,7 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
       - ~/cert:/etc/cert
     ports:
-      - 9001:9001
-    environment:
-      - ENV=development
+      - 2053:2053
     networks:
       - interconnector
 networks:
