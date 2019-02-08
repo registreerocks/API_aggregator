@@ -11,6 +11,8 @@ services:
     environment:
       - ENV=development
       - APPLICATION_URL=http://ismydependencysafe
+    networks:
+      - interconnector
 networks:
   interconnector:
     driver: bridge
