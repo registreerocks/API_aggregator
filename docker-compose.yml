@@ -10,7 +10,6 @@ services:
       #- 443:443
     environment:
       - ENV=development
-      - APPLICATION_URL=http://ismydependencysafe
     networks:
       - interconnector
 networks:
